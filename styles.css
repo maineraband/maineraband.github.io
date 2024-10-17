@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%; /* Relative width */
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: auto;
+}
+
+h1 {
+    font-size: 2em; /* Scalable font size */
+}
+
+p {
+    font-size: 1em;
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Smaller font size on mobile */
+    }
+    p {
+        font-size: 0.9em; /* Adjust paragraph size */
+    }
+}
+3. Flexible Images and Media
+Make images and other media responsive by setting their width to 100% and height to auto.
+
+css
+Copy code
+img {
+    max-width: 100%;
+    height: auto;
+}
