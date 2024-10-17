@@ -27,12 +27,4 @@ p {
         font-size: 0.9em; /* Adjust paragraph size */
     }
 }
-3. Flexible Images and Media
-Make images and other media responsive by setting their width to 100% and height to auto.
 
-css
-Copy code
-img {
-    max-width: 100%;
-    height: auto;
-}
