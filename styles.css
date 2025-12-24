@@ -93,18 +93,15 @@ padding:0 5px;
 }
 .albumstack{
     display:flex;
-    margin: 5vw 0 0 0;
+    margin: 5vw 0;
 }
 #count-el{
     display:flex;
-    margin: 20px auto;
-    width:10%;
-    text-align:center;
+    justify-content: center;
     color: whitesmoke;
-    padding:30px;
+    padding:10px;
     border:solid 2px red;
     border-radius:50%;  
-    font-size:larger;
     
 }
 
@@ -129,8 +126,8 @@ padding:0 5px;
 .bandvids{
     display:flex;
     justify-content: space-between;
-
 }
+
 .vid{
     margin: 10px;
     border: solid 2px red;
