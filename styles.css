@@ -24,6 +24,8 @@ body{
     
 } */
 #email{
+    display: block;
+    text-align: center;
     margin:10px auto;
     font-style: italic;
 }
