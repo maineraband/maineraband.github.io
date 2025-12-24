@@ -23,6 +23,10 @@ body{
     
     
 } */
+#email{
+    margin:10px auto;
+    font-style: italic;
+}
 nav{
     display: flex;
     justify-content: center;
