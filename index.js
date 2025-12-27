@@ -1,7 +1,10 @@
 let countEl = document.getElementById("count-el")
 let count = 0 
+let msgEl = document.getElementById("msg-el")
+let msg = "ARE YOU HAPPY? "
 function increment() {
-    count = count + 1
+    count += 1
     countEl.innerText = count
+    msgEl.textContent += msg
 }
 console.log(count)
