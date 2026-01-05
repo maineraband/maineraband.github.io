@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 body{
     margin:0; 
     background:#282828;
@@ -134,13 +134,17 @@ padding:0 5px;
 
 .bandvids{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
 }
+    
 
 .vid{
     margin: 10px;
     border: solid 2px red;
+    box-sizing: border-box;
+    padding:10px;
 }
+    
 a{
     color:whitesmoke;
 }
